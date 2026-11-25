@@ -7,6 +7,7 @@ Labs, scripts and notes for the Hard Hat Networking video series. Networking tau
 | Lesson | Topic | Lab | Automation nugget | Video |
 | --- | --- | --- | --- | --- |
 | [L2-01](lessons/L2-01-mac-learning/) | How a switch learns, forwards, floods and filters | 2 switches, 4 hosts | `mac_locator.py`: find the switch port any MAC lives on | Coming soon |
+| [L2-02](lessons/L2-02-vlans/) | VLANs and trunking | 2 switches, 4 hosts in 2 VLANs, a trunk to build | `vlan_audit.py`: find VLAN and trunk mismatches with TextFSM | Coming soon |
 
 ## What you need
 
