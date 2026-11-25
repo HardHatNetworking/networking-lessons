@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# keep .terraform.lock.hcl committed so provider versions stay pinned
+
+# Python
+__pycache__/
+.venv/
+
+# Local secrets
+.env
+*.pem
+*.key
